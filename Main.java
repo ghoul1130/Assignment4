@@ -114,3 +114,47 @@ public class Main {
         System.out.println("\nTotal animals created: " + Animal.getAnimalCount());
     }
 }
+---OUTPUT---
+===INNER CLASS===
+Library: City Library
+Book added: Java Guide
+Java Guide at City Library
+Book added: Data Structures
+Data Structures at City Library
+===ENUM CLASS===
+Today is: THURSDAY
+Day: MONDAY, Number: 1
+Day: TUESDAY, Number: 2
+Day: WEDNESDAY, Number: 3
+Day: THURSDAY, Number: 4
+Day: FRIDAY, Number: 5
+false
+===OBSERVER PATTERN (WEATHER STATION)===
+Temperature changed to 25
+Phone shows: 25°C
+TV shows: 25°C
+Temperature changed to 30
+Phone shows: 30°C
+TV shows: 30°C
+===BUILDER PATTERN (CAR)===
+Car :: brand='Toyota', model='Camry', year=2023}
+Error: Brand cannot be null or empty
+===BUILDER PATTERN (DB)===
+Database connected
+Same instance: true
+Executing: SELECT * FROM users
+Connection Closed
+===POLYMORPHSIM AND INHERITENCE===
+Feeding all animals:
+Parrot is eating.
+Goldfish is eating.
+Donald is eating.
+Whiskers is eating.
+
+Making each animal sound:
+Parrot chirps!
+Goldfish makes bubbly sounds.
+Donald quacks!
+Whiskers meows!
+
+Total animals created: 4
